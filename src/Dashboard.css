@@ -1,0 +1,29 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;  /* Space between the components */
+    padding: 20px;
+  }
+  
+  .counter-section, .timer-section {
+    flex: 1;
+    min-width: 300px; /* Adjust this for responsiveness */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .counter-section {
+    background-color: #f1f8ff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timer-section {
+    background-color: #f1f8ff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

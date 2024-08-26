@@ -1,0 +1,65 @@
+.todo-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-section input {
+    margin: 10px 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-section button {
+    padding: 7px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-section button:hover {
+    background-color: #218838;
+  }
+  
+  .todo-list-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .todo-list-section th, .todo-list-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .todo-list-section th {
+    background-color: #f2f2f2;
+  }
+  
+  .todo-list-section button {
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-list-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-list-section button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .todo-list-section button:last-child:hover {
+    background-color: #c82333;
+  }
+  

@@ -19,6 +19,14 @@ const countReducer = (state=initialState, action) => {
                 ...state,
                 count : state.count - 1
             }
+        
+        case 'INCREASE':
+            return {
+                ...state,
+                count : state.count + action.payload
+            }
+        // // If the reducer doesn't care about this action type,
+        // return the existing state unchanged
         default:
             return state
     }
